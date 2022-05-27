@@ -1,0 +1,14 @@
+$ORIGIN streama.com.
+$TTL 3H"
+
+@       IN SOA  servidor3.streama.com. root@streama.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN      NS      servidor.streama.com.
+
+;host en la zona
+servidor        IN      A       192.168.50.3
+firewall        IN      A       192.168.1.20
