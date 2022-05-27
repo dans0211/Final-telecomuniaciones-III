@@ -1,0 +1,13 @@
+$ORIGIN 50.168.192.in-addr.arpa.
+TTL 3H
+@       IN SOA  servidor.streama.com. root@streama.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+@       IN      NS      servidor.streama.com.
+
+;host en la zona
+3        IN      PTR     servidor.streama.com.
+20       IN      PTR     firewall.streama.com.
